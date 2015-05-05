@@ -23,6 +23,7 @@ $(function () {
         $.post(url, {_token: token, email: email}).done(function (r) {
 
             if (r.success) {
+                $('#InputEmail').val('');
                 alert.attr('class', 'alert alert-success alert-dismissible');
                 alert_icon.attr('class', 'glyphicon glyphicon-ok-sign');
             } else {
