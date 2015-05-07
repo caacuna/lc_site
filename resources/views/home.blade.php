@@ -60,18 +60,16 @@
     <div class="container">
         <header>
             <!-- HEADLINE -->
-            <h1 data-animated="GoIn"><img src="assets/img/logo.png" style="width: 40%;"/> <br/>Proximamente...</h1>
+            <h1 data-animated="GoIn"><img src="assets/img/logo.png" style="width: 40%;"/></h1>
+            <h1 data-animated="GoIn" style="margin-top: -30px; font-size: 50px;">Proximamente...</h1>
         </header>
-        <!-- START TIMER -->
-        <div id="timer" data-animated="FadeIn">
-            <p id="message"></p>
 
-            <div id="days" class="timer_box"></div>
-            <div id="hours" class="timer_box"></div>
-            <div id="minutes" class="timer_box"></div>
-            <div id="seconds" class="timer_box"></div>
+        <!-- START VIDEO -->
+        <div id="video">
+            <p id="message"></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nd5GcEPHXLQ?autoplay=1&controls=1&rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
-        <!-- END TIMER -->
+        <!-- END VIDEO -->
 
         <!-- START REGISTRATION -->
         <div class="col-lg-4 col-lg-offset-4 mt centered">
@@ -96,7 +94,18 @@
                 <span id="registration-alert-message"></span>
             </div>
         </div>
-        <!-- START REGISTRATION -->
+        <!-- END REGISTRATION -->
+
+        <!-- START TIMER -->
+        <div id="timer" class="col-lg-12 centered" data-animated="FadeIn">
+            <h4 class="">La versión Beta estará disponible en:</h4>
+            <div id="days" class="timer_box"></div>
+            <div id="hours" class="timer_box"></div>
+            <div id="minutes" class="timer_box"></div>
+            <div id="seconds" class="timer_box"></div>
+        </div>
+        <!-- END TIMER -->
+
     </div>
 
     <div class="container">
