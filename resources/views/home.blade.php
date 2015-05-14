@@ -106,6 +106,10 @@
         </div>
         <!-- END TIMER -->
 
+        <div class="col-lg-12 centered">
+            <a href="mailto:contacto@licitachile.cl" style="color: #ffffff;font-size: 30px;">contacto@licitachile.cl</a>
+        </div>
+
     </div>
 
     <div class="container">
